@@ -10,16 +10,27 @@
 </head>
 <body>
     <div id="header">
-        <h1>Input Form</h1>
-        <form action="/action_page.php">
-            <label for="Name">Student Name :</label>
-            <input type="text" id="Name" name="Name" value="jahangir alam"><br><br>
-            <label for="Roll">Roll :</label>
-            <input type="number" id="Roll" name="Roll" value="0" min="0" max="1000"><br><br>
-            <label for="s_Id">Student ID :</label>
-            <input type="number" id="s_Id" name="s_Id" value="0" min="0" max="1000"><br><br>
-            <input type="submit" value="Submit">
-          </form>
+        <form action="">
+            <table class="table-area">
+                <tr>
+                    <td><label for="Name">S_NAME :</label></td>
+                    <td><input type="text" id="Name" name="Name" value="" placeholder="jahangir alam"></td>
+                </tr><br>
+                <tr>
+                    <td><label for="roll">S_ROLL :</label></td>
+                    <td><input type="number" id="Name" name="roll" value="0" min="0" max="1000"></td>
+                </tr><br>
+                <tr>
+                    <td><label for="id">S_ID :</label></td>
+                    <td><input type="number" id="id" name="id" value="0" min="0" max="1000"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset"></td>
+                    <td><input type="Submit"></td>
+                </tr>
+            </table>
+        </form>
+        
     </div>
     <script src="js/script.js"></script>
 </body>
