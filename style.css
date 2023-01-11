@@ -7,13 +7,27 @@
     height: auto;
     margin: auto;
     background-color: rgb(237, 244, 237);
-    padding: 30px;
+    padding: 20px;
 }
 
-.table-title{
-    color: red;
-}
 table, td{
     padding: 10px;
-
+}
+.reset-buttom{
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(238, 76, 76);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+}
+.submit-buttom{
+    padding: 10px 25px 10px 25px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
 }
