@@ -13,7 +13,7 @@
 table, td{
     padding: 10px;
 }
-.reset-buttom{
+#reset-buttom{
     padding: 10px 25px 10px 25px;
     background-color: rgb(238, 76, 76);
     color: white;
@@ -22,7 +22,7 @@ table, td{
     border-radius: 7px;
     border: none;
 }
-.submit-buttom{
+#submit-buttom{
     padding: 10px 25px 10px 25px;
     background-color: green;
     color: white;
